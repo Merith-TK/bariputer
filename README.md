@@ -1,9 +1,22 @@
-# Fabric Example Mod
+# Bariputer
+An Mod that brings CC Automation, to the client
 
-## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## To Do
+- [ ] Utilize Cobalt Runtime
+- [ ] Load Computercraft Rom
 
-## License
+- [ ] Get Environment Data
+    - [ ] Read all blocks within reach
+        - [ ] Limit to Visible Blocks
+    - [ ] Identify intractable blocks
+        - These Blocks will be exposed as "peripherals" to the CC Core
+        - [ ] Vanilla
+            - [ ] Chest
+            - [ ] Furnace
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+- [ ] Get Player Data
+    - [ ] Inventory
+    - [ ] Armor
+    - [ ] Hot bar
+    - [ ] Held Tool
